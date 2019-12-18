@@ -1,0 +1,113 @@
+@font-face{
+	font-family:"InaiMathi";
+	src: url("font/InaiMathi-MN.ttc") format("truetype");
+}
+
+@font-face{
+	font-family:"Ortica";
+	src: url("font/Ortica-Light.otf") format("opentype");
+}
+
+body{
+	display:flex;
+	flex-direction:row;
+	overflow:hidden;
+	background-color:#e0ebeb;
+	cursor:url("img/pointer.png"),auto;
+	
+}
+
+.left{
+	
+	border-style:none;
+	width:45%;
+	padding-top:10%;
+	overflow:scroll;
+	
+}
+h2{
+	font-family:"InaiMathi";
+	font-size:2.5vw;
+	margin-left:5%;
+}
+
+h3{
+	font-family:"Ortica";
+	font-size:1vw;
+	margin-left:5%;
+	font-weight:normal;
+	
+}
+p{
+	font-family:"InaiMathi";
+	font-size:2.5vw;
+	margin-left:5%;
+}
+a{
+	cursor:url("img/pointer2.png"),auto;
+}
+a:link, a:visited {
+	color:black;
+	background-color:transparent;
+	text-decoration:none;
+}
+
+a:hover, a:active {
+	color:#FEE501;
+	background-color:transparent;
+	text-decoration:none;
+ }
+
+.Scenario{
+	border-style:solid;
+	border-top:2px;
+	border-bottom:2px;
+	border-left:0px;
+	border-right:0px;
+	
+}
+
+.back{
+	border-top:0px;
+	border-bottom:0px;
+	border-left:2px;
+	border-right:2px;
+	border-style:solid;
+	width:10%;
+	
+}
+
+h1{
+	font-family:"Ortica";
+	text-transform: uppercase;
+	font-weight:normal;
+	transform: rotate(90deg);
+	text-align:center;
+	font-size:5vw;
+	padding-left:10%;
+	display:flex;
+	justify-content:right;
+
+}
+
+
+.right{
+	border-style:none;
+	width:45%;
+}
+.wrapper{
+	padding-left:5%;
+	padding-right:5%;
+}
+
+
+
+.gif{
+	width:60%;
+	margin-left:20%;
+	margin-right:20%;
+}
+#rightpageinfo{
+	margin-left:5%;
+	margin-right:5%;
+}

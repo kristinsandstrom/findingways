@@ -1,0 +1,14 @@
+//hoverimg pt.1
+
+
+$("span.velvetyne").mouseover(function(e){
+	$("img.velvetyne").show();
+	$("img.velvetyne").css("top", e.pageY);
+	$("img.velvetyne").css("left", e.pageX);
+
+})
+
+$("span.velvetyne").mouseout(function(){
+	$("img.velvetyne").hide();
+
+})	

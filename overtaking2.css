@@ -1,0 +1,301 @@
+@font-face{
+	font-family:"InaiMathi";
+	src: url("font/InaiMathi-MN.ttc") format("truetype");
+}
+
+@font-face{
+	font-family:"Ortica";
+	src: url("font/Ortica-Light.otf") format("opentype");
+}
+
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+  margin:0;
+  padding:0;
+  background:#1c271e08;
+  cursor:url("img/pointer.png"),auto;
+}
+
+/*
+h3{
+	position:absolute;
+	font-family:"Ortica";
+	font-size:7vh;
+	font-weight:normal;
+	margin-bottom:0;
+	margin-left:4%;
+	padding-top:30%;
+	text-transform: uppercase;
+	color:red	
+}
+*/
+
+#intro{
+	text-transform: uppercase;
+}
+
+h2{
+	font-family:"Ortica";
+	font-size:2.5vw;
+	position:absolute;
+	background:none;
+	text-rendering: auto;
+	font-weight:normal;
+	text-transform: uppercase;
+	display:inline;
+	padding-top:0;
+	margin-top:3vh;
+	margin-left:21%;
+	width:40%;
+	color:blue;
+}
+
+
+
+#rage{
+	font-family:"InaiMathi";
+	font-size:3vw;
+	position:absolute;
+	background:none;
+	text-rendering: auto;
+	font-weight:bold;
+	text-transform: uppercase;
+	display:inline;
+	line-height:3vw;
+	padding-left:6px;
+	
+}
+
+#road{
+	padding-left:4.5vw;
+}
+
+#audio{
+	padding-left:48%;
+	padding-right:auto;
+	position:relative;
+}
+
+/*
+
+h3{
+	width:10vw;
+	font-family:"Ortica";
+	font-size:2.5vw;
+	position:absolute;
+	padding-top:0;
+	margin-top:0;
+	padding-left:45%;
+	padding-right:45%;
+	position:sticky;
+	color:white;
+	background-color:black;
+	font-weight:normal;
+}
+*/
+
+.button{
+	vertical-align: baseline;
+	position: absolute;
+	align-items: center;
+    justify-content: center;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    bottom: 3%;
+    right: 18%;
+    text-align: center;
+    transition: 1s;
+    box-shadow: 10px 10px 10px -5px black;
+	
+}
+		
+h3{
+	font-family:"InaiMathi";
+	font-size:2em;
+	margin-top:35%;
+	
+}
+
+
+h3 a:link, a:visited {
+	color:blue;
+	background-color:transparent;
+	text-decoration:none;
+	cursor:url("img/pointer2.png"),auto;
+}
+
+h3 a:hover, a:active {
+	color:black;
+	background-color:transparent;
+	text-decoration:none;
+	cursor:url("img/pointer2.png"),auto;
+ }
+
+.Loop {
+  position: relative;
+  height: 100%;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  text-align:left;
+  width:45%;
+  margin:auto;
+  font-family:"InaiMathi";
+  font-weight:bold;
+  
+}
+
+section {
+  position: relative;
+  min-height: 300px;
+  max-height: 700px;
+  height: 80%;
+  
+}
+
+
+/*LEFT AND RIGHT*/
+
+.small-loop {
+	width:20%;
+	position:absolute;
+    height: 100%;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+	font-size:2vw;
+	height:100vh;
+	font-family:"Ortica";
+	
+	
+}
+
+
+
+
+#left {
+	padding-left:1%;
+	
+	
+	
+}
+
+#right {
+	right:0;
+	padding-right:1%;
+	
+}
+
+/*TYPE*/
+h1 {
+	font-family:"InaiMathi";
+	text-transform: uppercase;
+	font-size:5vw;
+	letter-spacing:0vw;
+	margin-top:0;
+	margin-bottom:0;
+	font-kerning: none;
+	font-weight:bold;
+	
+}
+h1 {
+	display:inline;
+}
+
+.push-up {
+	display:block;
+}
+
+.push-right {
+	display:block;
+	text-align:right;
+	padding-right: 10%;
+}
+
+img.image2 {
+	display:block;
+    margin-right: 10%;
+    margin-left: auto;
+    margin-top: -10%;
+}
+
+#link{
+	
+}
+a:link, a:visited {
+	color:blue;
+	background-color:transparent;
+	text-decoration:none;
+	cursor:url("img/pointer2.png"),auto;
+}
+
+a:hover, a:active {
+	color:black;
+	background-color:transparent;
+	text-decoration:none;
+	cursor:url("img/pointer2.png"),auto;	
+
+}
+
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  
+}
+
+.tooltip .tooltiptext {
+ font-family:"InaiMathi";
+  visibility: hidden;
+ 
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 6px 2px;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+
+  margin-left: -60px;
+  
+  /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+/*
+.hoverimg.hovertext{
+    visibility: hidden;
+     width: 120px;
+     background-color: black;
+     color: #fff;
+     text-align: center;
+     border-radius: 6px;
+     padding: 5px 0;
+
+     
+     position: absolute;
+     z-index: 1;
+}
+
+.hoverimg:hover .hovertext {
+  visibility: visible;
+}
+.hoverimg{
+    position: relative;
+     display: inline-block;
+}
+*/
+
+
+
+::-webkit-scrollbar {
+	display:none;
+}
+
